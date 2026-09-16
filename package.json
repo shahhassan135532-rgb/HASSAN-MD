@@ -1,16 +1,16 @@
 {
-  "name": "KAMRAN-MD",
+  "name": "HASSAN-MD",
   "version": "10.0.0",
-  "description": "A WhatsApp Bot Created By DR KAMRAN",
+  "description": "A WhatsApp Bot Created By HASSAN",
   "main": "index.js",
   "engines": {
     "node": ">=24.x",
     "npm": ">=10.x"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KAMRAN-MD",
-    "stop": "pm2 stop KAMRAN-MD",
-    "restart": "pm2 restart KAMRAN-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name HASSAN-MD",
+    "stop": "pm2 stop HASSAN-MD",
+    "restart": "pm2 restart HASSAN-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "7.0.0-rc11",
