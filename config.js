@@ -41,7 +41,7 @@ module.exports = {
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
     AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
     MENTION_REPLY: process.env.MENTION_REPLY || "false",   // reply on mentioned message 
-    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://raw.githubusercontent.com/shahhassan135532-rgb/HASSAN-MD/main/assets/hassan-logo.png",  // Bot's "alive" menu mention image
+    MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/6eld2b.png",  // Bot's "alive" menu mention image
 
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_DELETE: process.env.ANTI_DELETE || "true", // true antidelete to recover deleted messages 
