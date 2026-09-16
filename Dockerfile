@@ -5,7 +5,7 @@ RUN apt-get update && \
     apt-get upgrade -y && \
     rm -rf /var/lib/apt/lists/*
 USER node
-RUN git clone https://github.com/KAMRAN-SMD /home/node/DJ
+RUN git clone https://github.com/shahhassan135532-rgb/HASSAN-MD /home/node/DJ
 WORKDIR /home/node/DJ
 RUN chmod -R 777 /home/node/DJ/
 RUN yarn install --network-concurrency 1
